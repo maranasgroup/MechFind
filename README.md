@@ -71,10 +71,10 @@ The primary way to use this repository is through the provided Jupyter Notebook.
 
 ## Understanding the Output
 
-The example in the notebook (`In [39]` and `In [40]`) produces two main outputs:
+The example in the notebook produces two main outputs:
 
 1.  **`solutions` (List of Mechanisms):**
     This is a list containing the top 10 predicted mechanisms, sorted by their similarity score (best first). Each mechanism is itself a list of rule IDs that, when combined, produce the overall reaction.
 
 2.  **`Mechanism_Matrix` (DataFrame):**
-    This function takes one of the predicted mechanisms (e.g., `solutions[0]`) and visualizes it as a table. The DataFrame shows the net change of each moiety for the overall reaction (`RXN`), the counts in the reactants and products, and the specific changes contributed by each elementary rule in the predicted mechanism. This is a powerful tool for analyzing a specific prediction in detail.
+    This function takes one of the predicted mechanisms (e.g., `solutions[0]`) and visualizes it as a table. The DataFrame shows the net change of each moiety for the overall reaction (`RXN`), the counts in the reactants and products, and the specific changes contributed by each elementary rule in the predicted mechanism. 
