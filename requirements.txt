@@ -1,0 +1,4 @@
+pandas==2.1.4
+rdkit==2024.9.5
+PuLP==3.3.0
+jupyter
