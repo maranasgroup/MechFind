@@ -44,7 +44,7 @@ The primary way to use this repository is through the provided Jupyter Notebook.
     jupyter lab
     ```
 
-2.  **Open the Notebook:** In the Jupyter interface that opens in your browser, click on **`MechFind_ex.ipynb`**.
+2.  **Open the Notebook:** In the Jupyter interface that opens in your browser, click on **`MechFind_example.ipynb`**.
 
 3.  **Run the Code:** Execute the cells in the notebook. The notebook is structured to:
     *   Import the core logic from the `MechFind` module.
@@ -56,7 +56,7 @@ The primary way to use this repository is through the provided Jupyter Notebook.
 
 ### Core Software
 *   **`MechFind.py`**: The core Python module containing the main algorithm. It defines the `MechFind` function, optimization formulations (`minRules`, `OrderRules`), and helper functions for SMILES processing and similarity scoring.
-*   **`MechFind_ex.ipynb`**: A demonstration notebook that imports functions from `MechFind.py` and walks through a single prediction example.
+*   **`MechFind_example.ipynb`**: A demonstration notebook that imports functions from `MechFind.py` and walks through a single prediction example.
 *   **`Unq_Rule_Gen.py`**: A utility script used to generate the elementary rules matrix at any integer radius. It processes the raw M-CSA data files to create the CSVs found in the `Unique_Rules` folder.
 
 ### Data Files and Folders
