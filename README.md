@@ -11,6 +11,7 @@ This repository provides the source code, necessary datasets, and a self-contain
 ## Getting Started
 
 To run the example, you will need a Python environment with the necessary scientific computing packages.
+Installation takes less than 2 minutes on a standard desktop computer. The demo notebook runs in approximately 30 seconds.
 
 ### Prerequisites
 
